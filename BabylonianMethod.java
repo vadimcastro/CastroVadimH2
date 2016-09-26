@@ -4,6 +4,7 @@
 import javax.swing.JOptionPane;
 
 public class BabylonianMethod {
+
     public static void main(String[] args){
 
         double x ;
@@ -23,19 +24,19 @@ public class BabylonianMethod {
 
     }
 
-    static class BabylonianRoot {
+    private static class BabylonianRoot {
         private double S;
         private double e;
         private double X;
 
 
-        BabylonianRoot(double a, double b, double c) {
+        private BabylonianRoot(double a, double b, double c) {
             S = a;
             e = c;
             X = b;
         }
 
-        public double SquareRoot(double x) {
+        private double SquareRoot(double x) {
             if (x == Math.sqrt(S)) {
                 return x;
 
@@ -48,7 +49,7 @@ public class BabylonianMethod {
             }
         }
 
-        public void validate(double result) {
+        private void validate(double result) {
 
             double e2 = Math.abs(((X - result) / X) * 100);
             System.out.println(e2);
@@ -74,4 +75,6 @@ public class BabylonianMethod {
 
 
         }
-    }}}
+    }
+    }
+}
