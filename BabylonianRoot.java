@@ -11,7 +11,7 @@ import javax.swing.*;
  * user has unlimited opportunities to keep guessing and getting closer to the answer.
  */
 public class BabylonianRoot {
-    
+
     private double S;
     private double e;
     private double X;
