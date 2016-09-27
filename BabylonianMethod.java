@@ -20,7 +20,6 @@ public class BabylonianMethod {
         double sqPrint = sq.SquareRoot(x);
         System.out.println(sqPrint);
         sq.validate(sqPrint);
-        System.out.println("x: "+ x + " e: " + e);
 
     }
 
