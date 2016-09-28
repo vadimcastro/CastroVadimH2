@@ -1,5 +1,11 @@
-// Vadim Castro
-// HW2 with Babylonian method of finding sqaure root
+/**
+ * This class uses and tests the BabylonianRoot class, specifically the SquareRoot and validate methods
+ *
+ * @author Vadim Castro
+ * @use Used to compute the square root of a number via the Babylonian method with user input for 1) The number to be
+ * taken the square root of, 2) user defined acceptable percent error and 3) The guess of the square root.
+ */
+
 
 import javax.swing.JOptionPane;
 
@@ -31,14 +37,26 @@ public class BabylonianMethod {
      */
 
     private static class BabylonianRoot {
+
+        /**
+         * Holds the value of the number to be taken the square root of
+         */
         private double S;
+
+        /**
+         * Holds the user defined value for acceptable percent error
+         */
         private double e;
+
+        /**
+         * Holds the user's guess for what the square root might be
+         */
         private double X;
 
 
         /**
          * Constructor for BabylonianRoot object
-         *  @param a the number to find square of
+         *  @param a the number to find square root of
          * @param b the guess for the square root
          * @param c acceptable percent error
          */
@@ -51,7 +69,7 @@ public class BabylonianMethod {
 
         /**
          * Calculates square root of a number via the Babylonian method
-         *  @param x the number to be taken the sqaure root of
+         *  @param x the number to be taken the square root of
          * @return the square root or the SquareRoot method call if recursion is required
          */
 

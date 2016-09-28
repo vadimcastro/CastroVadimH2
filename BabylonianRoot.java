@@ -12,14 +12,25 @@ import javax.swing.*;
  */
 public class BabylonianRoot {
 
+    /**
+     * Holds the value of the number to be taken the square root of
+     */
     private double S;
+
+    /**
+     * Holds the user defined value for acceptable percent error
+     */
     private double e;
+
+    /**
+     * Holds the user's guess for what the square root might be
+     */
     private double X;
 
 
     /**
      * Constructor for BabylonianRoot object
-     *  @param a the number to find square of
+     *  @param a the number to find square root of
      * @param b the guess for the square root
      * @param c acceptable percent error
      */
@@ -33,7 +44,7 @@ public class BabylonianRoot {
 
     /**
      * Calculates square root of a number via the Babylonian method
-     *  @param x the number to be taken the sqaure root of
+     *  @param x the number to be taken the square root of
      * @return the square root or the SquareRoot method call if recursion is required
      */
 
